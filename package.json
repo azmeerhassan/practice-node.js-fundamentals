@@ -1,0 +1,12 @@
+{
+  "name": "practice-node.js-fundamentals",
+  "version": "1.0.0",
+  "description": "\"Wanted to practice backend concepts again, this time official documentation will be refrenced for the most part\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
