@@ -1,8 +1,10 @@
 var fs = require('fs')
 
-fs.appendFile('myNewTextFile1.txt', "Hello!", (err)=>{if (err) throw error
-console.log('saved!')
-})
+fs.unlink('myNewTextFile1.txt', (err)=> {if (err) throw err 
+    else
+    console.log("deleted");
+    
+ })
 
 
 
