@@ -1,11 +1,9 @@
-var http = require('http');
-var dateTime = require('./dateModule.js') 
+var fs = require('fs')
 
-http.createServer((req, res)=>{
-    res.writeHead(200, {'content-type': 'text/html'})
-    res.write('Currently date and time is: '+dateTime.myDateTime()+'\n')
-    res.end('\nHello World!')
-}).listen(8080);
+fs.appendFile('myNewTextFile1.txt', "Hello!", (err)=>{if (err) throw error
+console.log('saved!')
+})
+
 
 
 
